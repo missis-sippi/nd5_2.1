@@ -49,8 +49,6 @@ server.listen(port)
         req.end();
 
       });
-
-      // response.writeHead(200,{'Content-Type': 'application/json'});
       response.write(data);
       response.end();
     })
